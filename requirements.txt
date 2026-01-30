@@ -32,3 +32,20 @@ requests
 pytest
 pytest-asyncio
 httpx
+
+# Production Dependencies
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Monitoring & Metrics
+prometheus-client
+prometheus-fastapi-instrumentator
+
+# Caching
+redis
+hiredis
+
+# Logging
+python-json-logger
